@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.max-width {
+    max-width: 1400px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.about,
+.services,
+.contact,
+footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav bar */
+
+.nav-bar {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 25px;
+}
+
+.menu-btn {
+    color: black;
+    padding: 0 20px;
+}
+
+.menu-btn:hover {
+    color: red;
+}
+
+/* nav bar ends */
+
+/* home section starts */
+
+.home {
+    display: flex;
+    /* background: url("images/home.jpg") no-repeat center; */
+    background-color: blue no-repeat center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*  home section ends*/
+
+.service {
+    display: flex;
+    /* height: 100vh; */
+    color: black;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.service-content {
+    font-family: sans-serif;
+}
+
+.left-to-rigth {
+    width: 1200px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.right-to-left {
+    width: 1200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.service-img {
+    width: 450px;
+    margin-left: 100px;
+}
+
+.service-detail {
+    width: 400px;
+    margin-left: 100px;
+}
